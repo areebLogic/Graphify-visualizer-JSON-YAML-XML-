@@ -1,0 +1,69 @@
+{
+  "name": "Graphify",
+  "version": "0.1.0",
+  "type": "module",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "./index.html",
+  "homepage": "https://areebLogic.github.io/Graphify",
+  "license": "MIT",
+  "author": {
+    "name": "areebLogic",
+    "url": "https://github.com/areebLogic"
+  },
+  "keywords": [
+    "visualizer",
+    "json",
+    "yaml",
+    "tree"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/areebLogic/Graphify.git"
+  },
+  "scripts": {
+    "dev": "parcel",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build --no-source-maps --public-url https://areebLogic.github.io/Graphify/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.4.6",
+    "downloadjs": "^1.4.7",
+    "fast-xml-parser": "^4.0.13",
+    "html-to-image": "^1.11.4",
+    "monaco-editor": "^0.34.1",
+    "react": "^18.2.0",
+    "react-contexify": "^6.0.0",
+    "react-dom": "^18.2.0",
+    "react-zoom-pan-pinch": "^2.2.0",
+    "reaflow": "^5.1.2",
+    "toastify-js": "^1.12.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@parcel/compressor-brotli": "^2.7.0",
+    "@parcel/compressor-gzip": "^2.7.0",
+    "@parcel/optimizer-esbuild": "^2.7.0",
+    "@parcel/packager-raw-url": "^2.7.0",
+    "@parcel/transformer-webmanifest": "^2.7.0",
+    "@types/downloadjs": "^1.4.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@types/toastify-js": "^1.11.1",
+    "@types/yamljs": "^0.2.31",
+    "autoprefixer": "^10.4.13",
+    "buffer": "^6.0.3",
+    "elkjs": "^0.8.2",
+    "events": "^3.3.0",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.21",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "string_decoder": "^1.3.0",
+    "tailwindcss": "^3.2.4",
+    "timers-browserify": "^2.0.12",
+    "typescript": "^4.8.4"
+  }
+}
