@@ -14,8 +14,7 @@ Visualize and download JSON / YAML / XML content in your browser
 - Copy node and specific child tree
 
 
-
-## This software uses the following open source packages:
+## 🛠️ Built With
 
 - [React](https://github.com/facebook/react)
 - [Monaco Editor](https://microsoft.github.io/monaco-editor/)
