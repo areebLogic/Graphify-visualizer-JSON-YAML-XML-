@@ -1,6 +1,7 @@
 # Graphify 🌚
 
 Visualize and download JSON / YAML / XML content in your browser
+![preview](https://user-images.githubusercontent.com/86670119/230811894-17747a99-570e-47ff-8765-45eced91032d.jpg)
 
 
 ## Key Features
